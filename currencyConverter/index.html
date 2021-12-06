@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Task2 - Converter</title>
+  </head>
+  <body>
+    <div id="container">
+      <div class="from-row">
+        <input type="number" id="from-input" value="0" />
+
+        <select name="convertFrom" id="convertFrom">
+          <option class="usd-class" value="USD">United States Dollar</option>
+          <option class="amd-class" value="AMD">Armenian Dram</option>
+        </select>
+      </div>
+
+      <div class="to-row">
+        <input type="number" id="to-input" value="0" />
+
+        <select name="convertTo" id="convertTo">
+          <option class="amd-class" value="AMD">Armenian Dram</option>
+          <option class="usd-class" value="USD">United States Dollar</option>
+        </select>
+      </div>
+    </div>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
